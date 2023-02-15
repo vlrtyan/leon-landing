@@ -1,0 +1,21 @@
+.landing__wheel {
+    width: 835px;
+    height: auto;
+    margin: 0 auto 40px;
+}
+
+@media screen and (max-width: 1919px) {
+    .landing__wheel {
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .landing__wheel {
+        width: 402px;
+        height: 402px;
+        margin: 0 auto 186px;
+        transform: translateX(-50%);
+        margin-left: 50%;
+    }
+}

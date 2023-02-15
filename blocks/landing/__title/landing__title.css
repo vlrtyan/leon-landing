@@ -1,0 +1,24 @@
+.landing__title {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0 auto 3px;
+}
+
+@media screen and (max-width: 1919px) {
+    .landing__title {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .landing__title {
+        font-size: 20px;
+        margin: 0 auto 5px;
+        max-width: 272px;
+        text-align: center;
+    }
+}

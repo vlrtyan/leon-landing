@@ -1,0 +1,24 @@
+.win-popup__container {
+    width: 651px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media screen and (max-width: 1919px) {
+    .win-popup__container {
+        width: 406px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .win-popup__container {
+        top: 148px;
+    }
+}

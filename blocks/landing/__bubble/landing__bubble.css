@@ -1,0 +1,25 @@
+.landing__bubble {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .landing__bubble {
+        display: block;
+        position: absolute;
+    }
+
+    .landing__bubble_type_pink {
+        bottom: 0;
+        right: 0;
+    }
+
+    .landing__bubble_type_orange {
+        left: 0;
+        bottom: 509px;
+    }
+
+    .landing__bubble_type_green {
+        right: 0;
+        bottom: 286px;
+    }
+}
