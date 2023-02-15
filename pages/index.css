@@ -1,8 +1,10 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+
 @import url(../blocks/landing/landing.css);
 @import url(../blocks/landing/__title/landing__title.css);
 @import url(../blocks/landing/__subtitle/landing__subtitle.css);
